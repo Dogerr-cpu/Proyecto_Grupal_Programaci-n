@@ -1,7 +1,4 @@
-from login import login
-from admin import menu_administrador
-from usuario import menu_usuario
-from comprador import menu_comprador
+from Login import login
 
 def main():
     print("===BIENVENIDO A LA TIENDA DE COMPUTADORAS===")
@@ -11,13 +8,10 @@ def main():
 
     if tipo == "administrador":
         print(f"===BIENVENIDO AL MENU DE {tipo}===")
-        menu_administrador(usuario_ingresado)
     elif tipo == "usuario":
         print(f"===BIENVENIDO AL MENU DE {tipo}===")
-        menu_usuario(usuario_ingresado)
     elif tipo == "comprador":
         print(f"===BIENVENIDO AL MENU DE {tipo}===")
-        menu_comprador(usuario_ingresado)
     else:
         print("USUARIO O CONTRASEÑA INVALIDO")
 
