@@ -25,6 +25,8 @@ def menu_administrador(admnistrador):
                             stock=int(input("INGRESE EL STOCK: "))
                             if codigo in codigos:
                                 print("ya existe este codigo")
+                            elif nombre_producto in nombres_productos:
+                                print("ya existe ese nombre de producto")
                             elif precio <=0 or stock < 0:
                                 print("ponga datos bien")
                             else:
