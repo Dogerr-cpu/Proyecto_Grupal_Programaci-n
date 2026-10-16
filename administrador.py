@@ -1,3 +1,7 @@
+from Login import agregar_usuarios, ver_usuarios
+
+
+
 codigos=[1,2,3]
 nombres_productos=["laptop","mouse","teclado"]
 precios=[12000,250,600]
@@ -9,7 +13,10 @@ def menu_administrador(admnistrador):
             1. Ver productos
             2. Agregar producto nuevo
             3. Buscar producto
-            4. Salir del sistema
+            4. Agregar un usuario
+            5. Ver usuarios
+            6. Salir del sistema
+
             """)
             try:
                 opcion=int(input("INGRESE UNA OPCION 1-3: "))
@@ -45,7 +52,14 @@ def menu_administrador(admnistrador):
                         if validacion == 0:
                             print("no hay ese producto")
                     case 4:
-                        print("SALIENDO DEL SISTEMA....")
+                        usuario_nuevo=input("INGRESE UN USUARIO NUEVO: ").lower()
+                        clave_nueva=input("INGRESE UNA CLAVE PARA EL NUEVO USUARIO: ")
+                        tipo_nuevo=input("INGRESE QUE TIPO DE USUARIO QUIERE QUE SEA: ")
+                        agregar_usuarios(usuario_nuevo,clave_nueva,tipo_nuevo)
+                    case 5:
+                        ver_usuarios()
+                    case 6:
+                        print("saliendo del sistema...")
                         break
                     case _:
                         print("INGRESE UNA OPCION VALIDA")
