@@ -12,7 +12,7 @@ def menu_administrador(admnistrador):
             4. Salir del sistema
             """)
             try:
-                opcion=int(input("INGRESE UNA OPCION 1-3: "))
+                opcion=int(input("INGRESE UNA OPCION 1-4: "))
                 match opcion:
                     case 1:
                         for i in range(len(nombres_productos)):
