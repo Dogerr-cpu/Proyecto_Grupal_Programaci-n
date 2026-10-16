@@ -1,3 +1,3 @@
 # Proyecto_Grupal_Programaci-n
-TRABAJO GRUPAL DE PROGRAMACIÓN ESTRUCTURADA
-HICE EL MENU DE ADMINISTRADOR COMO DECIR EL JEFE DE LA TIENDA QUE TENGA LA VARIEDAD DE FUNCIONES POSIBLES PARA ESTE PROYECTO
+TRABAJO GRUPAL DE PROGRAMACIÓN ESTRUCTURADA -NAVIA-ARIAS-GARCIA-MORALES
+Este trabajo es sobre un sistema de inventario para una tienda de computadoras con un menu para administrador, vendedor y un comprador 
