@@ -1,2 +1,3 @@
-# Proyecto_Grupal_Programacion-Navia-Arias-Garcia-Morales
-TRABAJO GRUPAL DE PROGRAMACIÓN ESTRUCTURADA: Es un sistema de inventario para una tienda de computadoras, hay menu para administrador, el vendedor y el comprador.
+# Proyecto_Grupal_Programaci-n
+TRABAJO GRUPAL DE PROGRAMACIÓN ESTRUCTURADA
+HICE EL MENU DE ADMINISTRADOR COMO DECIR EL JEFE DE LA TIENDA QUE TENGA LA VARIEDAD DE FUNCIONES POSIBLES PARA ESTE PROYECTO
