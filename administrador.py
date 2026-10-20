@@ -1,5 +1,5 @@
 from inventario import ver_productos,agregar_producto,registrar_entrada,registrar_salida,ver_movimientos,ver_ventas
-from login import ver_usuarios,agregar_usuario
+from Login import ver_usuarios,agregar_usuarios
 
 def menu_administrador(nombre):
     while True:
